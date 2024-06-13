@@ -1,0 +1,73 @@
+/*
+Todo el documento
+*/
+*{
+    border-radius: 20px;
+    text-align: center;
+}
+/*
+Cuerpo del documento.
+*/
+body {
+    background-repeat: round;
+    background-size: 200px;
+    
+}
+/*Todos los div afectados*/
+div{
+    margin: 30px; /*El margin es el ancho*/
+    padding: 30px;/*El paddin es la altura*/
+    background-color: aqua;
+    opacity: 95%;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+/*
+Todos los div que contengan un parrafo.
+*/
+div p{
+    border: 2px;
+    color: white;
+    background-color: blue;
+}
+h1, h2, h3, h4, h5, h6 {
+    background-color: white;
+    font-size: 30px;
+}
+option, select, button {
+    background-color: antiquewhite;
+    border: solid;
+    border-color: blueviolet;
+}
+.divart{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+.imgprin{
+    width: 40%;
+    height: 50%;
+}
+.divtit{
+    text-align: center;
+}
+.imgmegus{
+    border-radius: 50px;
+    width: 30px;
+}
+.cont{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    height: 20%;
+    height: 20%;
+    font-size: 30px;
+    margin: 5px;
+    padding: 6px;
+}
+mark{
+    background-color: blanchedalmond;
+    margin: 2px;
+    padding: 2px;
+}

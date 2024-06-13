@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilmedatv ventas y programaci&oacute;n!</title>
+    <meta name="description" content="P&aacute;gina web para aprender a programar y lograr ventas por internet.">
+    <meta name="author" content="Jos&eacute; cano, Jose cano, jose cano">
+    <meta name="keywords" content="dilmedatv, dilmed, agilizando, tu, vida, jose, cano, jose fernando, chupacabras, care happy, html, css, javascript, pseudocodigo, python, php, ingles, ingl&eacute;s, matem&aacute;tica, alimento, dulce, mekato, comida, regalos, artesania, pl&aacute;sticos, empaques, productos, servicios">
+    <meta name="robots" content="follow">
+    <link rel="stylesheet" href="./css/css.css">
+    <script type="text/javascript" lang="javascript" src="./js/js.js"></script>
+    <noscript>Su navegador no soporta javascript</noscript>
+</head>
+<body background="./imagenes/logo.png" onload="sal()">
+    
+        <header>
+
+            <div class="divhea">
+                <a href="./imagenes/logo.png" target="_blank" rel="noopener noreferrer" title="Presione un click para ver la im&aacute;gen:">
+                    <img src="./imagenes/logo.png" alt="Logo de la empresa Dilmed agilizando tu vida" class="imgprin">
+                </a>
+                
+            </div>
+    
+        </header>
+        <nav>
+            <div class="divnav">
+                
+                <table style="text-align: center; justify-content: center; align-items: center;" >
+                    <tr>
+                        <td>
+                            <button onclick="megus()" title="Me gusta.">
+                                <img src="./imagenes/megusta.png" alt="Me gusta." class="imgmegus">
+                            </button>
+                        </td>
+                        <td>
+                            <span class="cont" id="conmegus" title="Me gusta.">0</span>
+                        </td>
+                        <td>
+                            <button onclick="nomegus()" title="No me gusta.">
+                                <img src="./imagenes/nomegusta.png" alt="No me gusta." class="imgmegus">
+                            </button>
+                        </td>
+                        <td>
+                            <span class="cont" id="connomegus" title="No me gusta.">0</span>
+                        </td>
+                        <td>
+                            <!--<textarea name="opini" id="opinomegus" rows="5" cols="135" placeholder="Espacio para publicacion de opiniones."></textarea>-->
+                        </td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td colspan="2" title="Me gusta."><mark>Me gusta:</mark></td>
+                        <td colspan="2" title="No me gusta."><mark>No me gusta</mark></td>
+                    </tr>
+                </table>
+                <hr align="center" noshade="">
+                
+                    <button type="button" onclick="ini()" title="P&aacute;gina principal de la empresa Dilmed agilizando tu vida (dilmedatv).">Inicio</button>
+                    <select name="sel" id="sel" title="Seleccion&eacute; una opci&oacute;n acercando el mouse y dando click aq&iacute;:" onchange="est()">
+                        <option value="0" selected>Estudios:</option>
+                        <option value="1" title="El pseudoc&oacute;digo es un lenguaje descriptivo algor&iacute;mico con el cual podremos aprender a desarrollar algor&iacute;mos de una forma mucho mas facil. Esto nos facilitar&aacute; la tarea de la programaci&oacute;n e inform&aacute;tica b&aacute;sica.">Pseudoc&oacute;digo:</option>
+                        <option value="2" title="La aritm&eacute;tica es la rama de la matem&aacute;tica que nos permite realizar operaciones b&aacute;sicas con n&uacute;meros de una forma b&aacute;sica y sencilla tales como adici&oacute;n, sustracci&oacute;n, multiplicaci&oacute;n, divisi&oacute;n entre otras.">Aritm&eacute;tica:</option>
+                        <option value="3" title="Html de sus siglas en ingl&eacute;s hypertext markup language es un lenguaje de marcado de hipertexto que nos permite crear documentos en desarrollo web los cuales pueden contener a su vez otros documentos, multimedia e iteracci&oacute;n con el usuario, navegante, internauta.">Html:</option>
+                        <option value="4" title="Las hojas de estilo en cascada, (Css) son aquellas que nos permiten modificar el estilo visual de nuestros documentos html con el fin de darle una mejor apariencia al usuario y p&aacute;ginas web mucho mas atractivas.">Css:</option>
+                        <option value="5" title="Javascript se define como un lenguaje de programaci&oacute;n iterpretado y orientado a opjetos con el cu&aacute;l podremos crear p&aacute;ginas web mucho mas din&aacute;micas con el fin de darle funcionalidad a nuestros sitios web, con javascript tambien se pueden hacer otro tipo de programaci&oacute;n fuera de la web.">Javascript:</option>
+                        <option value="6" title="Pythjon es un lengyuaje de programaci&oacute;n de alto nivel interpretado creado para darle facilidad a la legibilidad de su c&oacute;digo, es multiparadigma, orientado a objetos, programaci&oacute;n imperativa y funcional. Fu&eacute; creado por guido van rossum a finales de los a&ntilde;os 80.">Python:</option>
+                        <option value="7" title="Php es un lenguaje de programaci&oacute;n interpretado el cu&aacute;l se usa del lado del servidor, y se adapta especialmente al desarrollo web. Fu&eacute; creado por Rasmus lerdorf en 1994 y sus siglas significan Personal home page (P&aacute;gina personal).">Php:</option>
+                        <option value="8" title="El idioma ingl&eacute;s es el idioma o lenguaje universal oficial hablado en los cinco continentes. ">Ingl&eacute;s:</option>
+                        <option value="9" title="La m&uacute;sica nos permite distraernos, nos alegra mas la vida y es el arte con el cual se crean melodias con armonia y ritmo.">M&uacute;sica:</option>
+                        <option value="10" title="Glosario de terminos utilizados en este sitio web con fin de dar mayor comprensi&oacute;n al usuario e internauta.">Glosario:</option>
+    
+                    </select>
+
+                    <select class="sel" name="selproduc" id="selproduc" title="Lista de productos y servicios ofertados por la empresa Dilmed, agilizando tu vida. Presione click aqu&iacute;:">
+                        <option value="0" selected>Productos y servicios ofertados:</option>
+                        <option value="1" title="Alimentos perrecederos, no perecederos, cadenas de frio, mekato, dulces, frutas, verduras, entre otros.">Productos alimenticios:</option>
+                        <option value="2" title="Empaques, pl&aacute;sticos y otros productos similares.">Empaques, plasticos y otros:</option>
+                        <option value="3" title="Variedad de artesanias tales como croch&eacute;, macram&eacute; entre otros.">Artesanias y accesorios:</option>
+                        <option value="4" title="Ropa y accesorios para toda clase de gustos.">Ropa y accesorios:</option>
+                        <option value="5" title="Productos de aseo personal, general y otros especiales para empresas que lo puedan solicitar.">Productos de aseo:</option>
+                        <option value="6" title="Fragancias, aromatizantes, incienso, perfumeria, pastillas de cloro entre otros.">Productos de venta informal:</option>
+                        <option value="7" title="Todo lo relacionado con papeleria, documentos, libros, etc.">Papeleria y litografia:</option>
+                        <option value="8" title="">P&aacute;gina web en construcci&oacute;n:</option>
+                        <option value="9" title="">P&aacute;gina web en construcci&oacute;n:</option>
+                        <option value="10">P&aacute;gina web en construcci&oacute;n:</option>
+
+                    </select>
+                
+                <hr align="center" noshade="">
+            </div>
+    
+            
+    
+        </nav>
+    
+        <section class="divart">
+            <div class="divart">
+                <article class="art">
+                    <table>
+                        <tbody>
+                            <tr>
+                                
+                            <tr>
+                                <td>
+                                    <h1>Aprende a programar y adquiere productos y servicios.</h1>
+                                </td>
+                            </tr>
+                                
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                </article>
+            </div>
+        </section>
+    
+        <aside>
+    
+        </aside>
+    
+        <footer>
+    
+        </footer>
+    
+    
+</body>
+</html>

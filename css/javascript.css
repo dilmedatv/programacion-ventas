@@ -1,0 +1,11 @@
+*{
+    text-align: center;
+    border-radius: 20px;
+}
+select, option, button{
+    background-color: aqua;
+    border: salmon;
+    border: solid;
+    margin: 5px;
+    padding: 5px;
+}
